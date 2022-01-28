@@ -62,7 +62,7 @@ button {
 }
 
 img {
-    max-width: 100%;
+    max-width: 60%;
     height: auto;
 }
 
@@ -107,6 +107,9 @@ h1, h2, h3, p, ul {
     max-width: 950px;
     margin: 0 auto;
     padding: 30px 15px;
+}
+.present_block{
+    display: flex;
 }
 
 .visually-hidden {
@@ -176,7 +179,6 @@ h1, h2, h3, p, ul {
 
 .present {
     text-align: center;
-    padding-bottom: 90px;
     padding-top: 30px;
 }
 
@@ -186,10 +188,11 @@ h1, h2, h3, p, ul {
 }
 
 .present__description {
-    font-size: 36px;
+    font-size: 30px;
     line-height: 43px;
     max-width: 865px;
     margin: 0 auto 100px;
+    text-align: start;
 }
 
 .present__img {
@@ -197,6 +200,10 @@ h1, h2, h3, p, ul {
     margin: 0 auto;
 }
 
+h1{
+    font-size: 64px;
+    text-align: start;
+}
 @media (max-width: 968px) {
 
     .present {
@@ -252,10 +259,6 @@ h1, h2, h3, p, ul {
 }
 
 
-.card {
-    padding-top: 90px;
-}
-
 .card__wrap {
     display: flex;
     align-items: center;
@@ -286,6 +289,7 @@ h1, h2, h3, p, ul {
     font-weight: 600;
     margin-bottom: 40px;
     white-space: nowrap;
+    margin-left: -12px;
 }
 
 .card-detail__change {
